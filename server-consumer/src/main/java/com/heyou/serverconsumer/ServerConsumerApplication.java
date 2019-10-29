@@ -16,11 +16,11 @@ public class ServerConsumerApplication {
         SpringApplication.run(ServerConsumerApplication.class, args);
     }
 
-    /*@Bean
+    @Bean
     @LoadBalanced
     RestTemplate restTemplate() {
 
         return new RestTemplate();
-    }*/
+    }
 }
 

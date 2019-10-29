@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
-        <module name="service-provider" />
         <module name="springcloud-demo" />
+        <module name="service-provider" />
+        <module name="eureka-server" />
         <module name="server-consumer" />
       </profile>
     </annotationProcessing>

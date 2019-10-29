@@ -6,4 +6,4 @@ server:
   port: 8763
 spring:
   application:
-    name: service-provider    #这里给服务取一个帅气的名字
+    name: service-hello    #调用服务的时候是根据服务名来调用的
