@@ -9,6 +9,7 @@
         <module name="springcloud-demo" />
         <module name="service-provider" />
         <module name="eureka-server" />
+        <module name="spring-cloud" />
         <module name="server-consumer" />
       </profile>
     </annotationProcessing>

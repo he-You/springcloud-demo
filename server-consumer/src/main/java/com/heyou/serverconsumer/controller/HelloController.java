@@ -24,6 +24,7 @@ public class HelloController {
 
     @RequestMapping(value = "/hi")
     public String hi(@RequestParam String name) {
+        System.out.println("test");
         return helloService.hiService(name);
     }
 }
